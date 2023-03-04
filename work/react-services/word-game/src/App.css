@@ -1,0 +1,47 @@
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App {
+  margin: 0 20%;
+  background-color: lightblue;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin: 0.5rem;
+}
+
+input {
+  margin: 0.5rem;
+}
+
+.guess-form {
+  text-align: center;
+}
+
+.result {
+  text-align: center;
+}
+
+.content-page {
+  text-align: center;
+  display:table;
+  margin:0 auto;
+}
+
+button {
+  margin-top: 2rem;
+}
+
+
+
+
