@@ -1,0 +1,71 @@
+body {
+    background: coral;
+}
+  
+#chat-app {
+    display: flex;
+    flex-direction: column;
+  }
+
+.users {
+    background-color: grey;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    width: 900px;
+    top: 132px;
+    margin: auto;
+}
+
+.users li {
+    display: inline-block;
+}
+
+
+.messages {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 900px;
+    height:700px;
+    margin: auto;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.messages .message-text {
+    text-align: center;
+}
+
+.outgoing {
+    height: 300px;
+    width: 900px;
+    background-color: red;
+    text-align: center;
+    position: relative;
+    bottom: -500px;
+    margin: auto;
+}
+
+.outgoing .to-send {
+
+    width: 800px;
+    height: 295px;
+
+}
+
+.outgoing #send-button {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    height: 90px;
+}
+
+.outgoing #send-button {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+

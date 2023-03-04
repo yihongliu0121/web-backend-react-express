@@ -1,0 +1,7 @@
+.animals-list {
+    border: solid 0.3em;
+    width: auto;
+    padding-left: 25px;
+    border-color: yellow;
+    list-style-type: "\1F431";
+}

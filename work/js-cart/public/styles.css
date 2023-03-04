@@ -1,0 +1,50 @@
+
+
+ul {
+    padding: 1rem 0;
+    margin: 0;
+}
+
+
+h1{
+    background: beige;
+    height: 40px;
+	padding: 10px 20px;
+	font-variant: small-caps;
+    font-weight: normal;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #0f0c29, pink, #24243e);
+  
+  }
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 0 0.5rem;
+
+    list-style-type: none;
+}
+
+li:hover {
+    background-color: lightgrey;
+}
+
+.item-list {
+    background-color: red;
+}
+
+.cat-list {
+    background-color: blue;
+}

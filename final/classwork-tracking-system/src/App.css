@@ -1,0 +1,228 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 600px;
+  min-height: 600px;
+  background: gray;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+  list-style: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    lightblue,
+    lightgreen 100%
+  );
+}
+
+h1 {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 24px;
+}
+
+.assignment-text-complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.add-form {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.controls-logout {
+  right: 15px; top: 15px
+}
+
+.add-assignmentName {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 420x;
+  background: transparent;
+  color: #fff;
+}
+
+.add-dueDate {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 160px;
+  background: transparent;
+  color: #fff;
+}
+
+.login-username {
+  margin-left: 10px;
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 160px;
+  background: transparent;
+  color: #fff;
+}
+
+.edit-input {
+  margin-left: 10px;
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 160px;
+  background: transparent;
+  color: #fff;
+}
+
+.assignment-toggle {
+  margin-right: 10px;
+}
+
+.add-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.assignment-edit_submit {
+  padding: 16px;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.assignment-edit_cancel {
+  padding: 16px;
+  border: none;
+  margin-left: 32px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.assignment-edit {
+  padding: 16px;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.assignment-delete {
+  padding: 16px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 32px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.controls-logout {
+  padding: 10px;
+  position: relative; 
+  top: -15px; 
+  left: 260px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.login-button {
+  padding: 16px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 32px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.welcome {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 24px;
+}
+
+
